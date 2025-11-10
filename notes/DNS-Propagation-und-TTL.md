@@ -100,6 +100,8 @@ sequenceDiagram
 | 🌏 Asien                | 6–24 Stunden               |
 | 🌐 Weltweit vollständig | Bis zu 48 Stunden (selten) |
 
+Die Dauer hängt vor allem von der TTL und den Caching-Mechanismen der Provider ab.
+
 ---
 
 ## 🔍 7. Überprüfung des Fortschritts
