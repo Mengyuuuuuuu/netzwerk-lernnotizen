@@ -67,13 +67,13 @@ Es übersetzt menschenlesbare Domainnamen (z. B. `wang.ist`) in IP-Adressen
 
 ```mermaid
 graph TD
-A[Browser] --> B[Lokaler Cache]
-B -->|Kein Treffer| C[OS-DNS-Cache]
-C -->|Kein Treffer| D[Rekursiver Resolver]
-D --> E[Root-Nameserver]
+A["Browser"] --> B["Lokaler Cache"]
+B -->|Kein Treffer| C["OS-DNS-Cache"]
+C -->|Kein Treffer| D["Rekursiver Resolver"]
+D --> E["Root-Nameserver"]
 E --> F["TLD-Server (.ist)"]
-F --> G[Autoritativer Nameserver (ns1.27p.net)]
-G --> H[Antwort: IP = 185.151.30.188]
-H --> I[Webserver]
-I --> J[Antwort: HTML/PHP-Daten]
+F --> G["Autoritativer Nameserver (ns1.27p.net)"]
+G --> H["Antwort: IP = 185.151.30.188"]
+H --> I["Webserver"]
+I --> J["Antwort: HTML/PHP-Daten"]
 ```
