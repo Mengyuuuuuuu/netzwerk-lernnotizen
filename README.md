@@ -12,6 +12,7 @@ Ziel ist es, ein verständliches Nachschlagewerk für Studium, Projekte und Beru
 | 🧭 DNS-System und Namensauflösung    | [DNS-System-Funktionsweise.md](notes/DNS-System-Funktionsweise.md)                             |
 | 📡 DNS-Propagation und TTL           | [DNS-Propagation-und-TTL.md](notes/DNS-Propagation-und-TTL.md)                                 |
 | 🔐 SSL/TLS-Zertifikate               | [SSL-Zertifikate-Prinzip-und-Ausstellung.md](notes/SSL-Zertifikate-Prinzip-und-Ausstellung.md) |
+| 🔑 SSH – Grundlagen & Sicherheit     | [SSH-Grundlagen-und-Funktionsweise](notes/SSH-Grundlagen-und-Funktionsweise.md)           |
 | 🔗 TCP-Verbindung & 3-Wege-Handshake | _(in Vorbereitung)_                                                                            |
 | 🌍 HTTP vs. HTTPS                    | _(in Vorbereitung)_                                                                            |
 | 🔒 SSL/TLS-Verschlüsselung           | _(in Vorbereitung)_                                                                            |
