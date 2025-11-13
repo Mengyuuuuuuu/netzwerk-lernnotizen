@@ -136,7 +136,7 @@ Beispiel:
         IdentityFile ~/.ssh/id_ed25519_github
 
     Host vps
-        HostName 37.44.215.100
+        HostName 00.66.000.111
         User root
         IdentityFile ~/.ssh/id_ed25519_vps
 
