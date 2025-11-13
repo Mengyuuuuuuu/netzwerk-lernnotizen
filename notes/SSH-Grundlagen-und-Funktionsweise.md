@@ -10,19 +10,19 @@ ermöglicht.
 👉 SSH ersetzt unsichere Protokolle wie **Telnet** oder **FTP**, die
 Passwörter im Klartext übertragen.
 
-------------------------------------------------------------------------
+---
 
 ## 🎯 2. Einsatzgebiete von SSH
 
-  Einsatzgebiet         Beschreibung
-  --------------------- ------------------------------------------
-  🖥️ Remote-Login       Zugriff auf Linux-Server über Terminal
-  📂 SFTP               Sichere Dateiübertragung über SSH
-  🔄 Git over SSH       Push/Pull ohne Passworteingabe
-  🐳 Serververwaltung   Deployment, Docker, Nginx, Systemdienste
-  🤖 Automatisierung    CI/CD-Pipelines, Cronjobs, Skripte
+  | Einsatzgebiet | Beschreibung |
+  |---------------|--------------|
+  | 🖥️ Remote-Login | Zugriff auf Linux-Server über Terminal |
+  | 📂 SFTP | Sichere Dateiübertragung über SSH | 
+  | 🔄 Git over SSH | Push/Pull ohne Passworteingabe | 
+  | 🐳 Serververwaltung | Deployment, Docker, Nginx, Systemdienste | 
+  | 🤖 Automatisierung | CI/CD-Pipelines, Cronjobs, Skripte | 
 
-------------------------------------------------------------------------
+---
 
 ## 🔑 3. Authentifizierung: Passwort vs. Schlüsselpaare
 
@@ -41,12 +41,11 @@ Ein Schlüsselpaar besteht aus:
 |------|--------|
 | **Private Key** (`id_ed25519`) | Geheime Identität, bleibt lokal |
 | **Public Key** (`id_ed25519.pub`) | Wird auf dem Server gespeichert |
----
 
 🔐 **Der Server prüft, ob der Client den passenden privaten Schlüssel
 besitzt.**
 
-------------------------------------------------------------------------
+---
 
 ## 🧠 4. Wie funktioniert SSH im Hintergrund?
 
@@ -73,7 +72,7 @@ sequenceDiagram
     C->>S: Sichere Kommunikation beginnt
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 🔐 5. Host Keys & known_hosts
 
@@ -98,7 +97,7 @@ Lösung:
 
 Eintrag löschen → erneut verbinden.
 
-------------------------------------------------------------------------
+---
 
 ## 🛠️ 6. SSH-Schlüssel generieren
 
@@ -123,7 +122,7 @@ oder manuell in:
 
     ~/.ssh/authorized_keys
 
-------------------------------------------------------------------------
+---
 
 ## 🧩 7. Mehrere SSH-Keys verwalten
 
@@ -145,32 +144,32 @@ Danach reicht:
 
     ssh vps
 
-------------------------------------------------------------------------
+---
 
 ## 🌐 8. SSH vs FTP vs SFTP
 
-  Protokoll   Verschlüsselt?   Beschreibung
-  ----------- ---------------- --------------------------------------
-  **FTP**     ❌               Veraltet, unsicher
-  **FTPS**    ✔                FTP über TLS
-  **SFTP**    ✔                Dateiübertragung über SSH
-  **SSH**     ✔                Vollständiger sicherer Remote-Zugang
+  | Protokoll | Verschlüsselt? | Beschreibung | 
+  |-----------|----------------| -------------| 
+  | **FTP** | ❌ | Veraltet, unsicher | 
+  | **FTPS** | ✔ | FTP über TLS | 
+  | **SFTP** | ✔ | Dateiübertragung über SSH | 
+  | **SSH** | ✔ |  Vollständiger sicherer Remote-Zugang | 
 
-------------------------------------------------------------------------
+---
 
-## 🏢 9. Shared Hosting (clientcp) vs VPS --- SSH Unterschiede
+## 🏢 9. Shared Hosting (z.B. clientcp) vs VPS (Virtual Private Server) --- SSH Unterschiede
 
-  Merkmal                 Shared Hosting (clientcp)   VPS
-  ----------------------- --------------------------- ----------------------------
-  Rechte                  begrenzt, kein root         vollständiger root
-  Ports                   nur 22                      frei konfigurierbar
-  Software installieren   ❌                          ✔ Docker, Nginx, UFW, etc.
-  Dateisystem             nur public_html             vollständige Kontrolle
-  Isolation               Benutzer-Level              eigene virtuelle Maschine
+  | Merkmal | Shared Hosting | VPS | 
+  |---------|----------------|-----| 
+  | Rechte | begrenzt, kein root | vollständiger root | 
+  | Ports | nur 22 | frei konfigurierbar | 
+  | Software installieren | ❌ | ✔ Docker, Nginx, UFW, etc. | 
+  | Dateisystem | nur public_html | vollständige Kontrolle | 
+  | Isolation | Benutzer-Level | eigene virtuelle Maschine | 
 
 **Shared Hosting benutzt chroot/CageFS → kein echter Systemzugang.**
 
-------------------------------------------------------------------------
+---
 
 ## 🧪 10. Wichtige SSH-Befehle
 
@@ -200,42 +199,42 @@ ssh-copy-id user@server
 sudo ss -tanp | grep ESTABLISHED
 ```
 
-------------------------------------------------------------------------
+---
 
 ## 🐞 11. Häufige Fehler & Lösungen
 
 ### ❌ `Connection timed out`
 
--   Firewall blockiert Port 22\
--   Server offline\
+-   Firewall blockiert Port 22
+-   Server offline
 -   SSH-Dienst läuft nicht
 
 ### ❌ `Permission denied (publickey)`
 
--   Falscher Key\
--   Public Key fehlt auf Server\
+-   Falscher Key
+-   Public Key fehlt auf Server
 -   Rechte falsch (`~/.ssh` muss 700 sein)
 
 ### ❌ `Host key verification failed`
 
 → Host-Key in `known_hosts` löschen
 
-------------------------------------------------------------------------
+---
 
 ## 📌 12. Zusammenfassung
 
 SSH ist die Grundlage für:
 
--   Serveradministration\
--   Webhosting\
--   DevOps / Deployment\
--   Git-Automation\
+-   Serveradministration
+-   Webhosting
+-   DevOps / Deployment
+-   Git-Automation
 -   Sichere Dateitransfers
 
 Mit SSH-Keys, Host Keys und Session Encryption bietet SSH ein sehr hohes
 Sicherheitsniveau, das in nahezu allen modernen IT-Infrastrukturen
 verwendet wird.
 
-------------------------------------------------------------------------
+---
 
 *Ende des Dokuments*
