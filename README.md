@@ -14,6 +14,7 @@ Ziel ist es, ein verständliches Nachschlagewerk für Studium, Projekte und Beru
 | 🔐 SSL/TLS-Zertifikate               | [SSL-Zertifikate-Prinzip-und-Ausstellung.md](notes/SSL-Zertifikate-Prinzip-und-Ausstellung.md) |
 | 🔑 SSH – Grundlagen & Sicherheit     | [SSH-Grundlagen-und-Funktionsweise](notes/SSH-Grundlagen-und-Funktionsweise.md)           |
 | 🔐 SSH vs. SSL/TLS – Verschlüsselungsvergleich | [SSH-vs-TLS.md](notes/SSH-vs-TLS.md) |
+| 🔗 TCP-Verbindung & 3-Wege-Handshake | [TCP-Verbindung-und-3-Wege-Handshake.md](notes/TCP-Verbindung-und-3-Wege-Handshake.md)    |
 
 ---
 
