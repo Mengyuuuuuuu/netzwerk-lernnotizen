@@ -16,6 +16,8 @@ Ziel ist es, ein verständliches Nachschlagewerk für Studium, Projekte und Beru
 | 🔐 SSH vs. SSL/TLS – Verschlüsselungsvergleich | [SSH-vs-TLS.md](notes/SSH-vs-TLS.md) |
 | 🔗 TCP-Verbindung & 3-Wege-Handshake | [TCP-Verbindung-und-3-Wege-Handshake.md](notes/TCP-Verbindung-und-3-Wege-Handshake.md)    |
 | 🌍 HTTP vs. HTTPS | [HTTP-vs-HTTPS.md](notes/HTTP-vs-HTTPS.md) |
+| 🔢 TCP vs. UDP Ports – Vergleich | [TCP-vs-UDP-Ports.md](notes/TCP-vs-UDP-Ports.md) |
+
 
 ---
 
