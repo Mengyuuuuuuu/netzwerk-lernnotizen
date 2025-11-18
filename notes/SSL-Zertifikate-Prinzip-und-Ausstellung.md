@@ -135,10 +135,4 @@ nutzen ein automatisiertes System, um SSL-Zertifikate für Domains auszustellen:
 Kostenlose SSL-Zertifikate (z. B. Let’s Encrypt) sind technisch **gleich sicher** wie kostenpflichtige,  
 der Unterschied liegt nur in der Art der Validierung und im Supportumfang.
 
----
 
-**Quellen & weiterführende Links:**
-
-- [Let's Encrypt Documentation](https://letsencrypt.org/docs/)
-- [How HTTPS Works – Cloudflare Learning](https://www.cloudflare.com/learning/ssl/what-is-https/)
-- [TLS Handshake Explained – Mozilla MDN](https://developer.mozilla.org/en-US/docs/Web/Security/TLS_Handshake)
