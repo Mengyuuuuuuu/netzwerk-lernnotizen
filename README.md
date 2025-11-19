@@ -18,6 +18,7 @@ Ziel ist es, ein verständliches Nachschlagewerk für Studium, Projekte und Beru
 | 🌍 HTTP vs. HTTPS                    | [HTTP-vs-HTTPS.md](notes/HTTP-vs-HTTPS.md)                                                     |
 | 🔢 TCP vs. UDP Ports – Vergleich     | [TCP-vs-UDP-Ports.md](notes/TCP-vs-UDP-Ports.md)                                               |
 | 🧩 OSI-Modell                        | [OSI-Referenzmodell-Grundlagen.md](notes/OSI-Referenzmodell-Grundlagen.md)                     |
+| 🌐 TCP/IP-Modell                     | [TCP-IP-Modell-Grundlagen.md](notes/TCP-IP-Modell-Grundlagen.md)                               |
 
 ---
 
