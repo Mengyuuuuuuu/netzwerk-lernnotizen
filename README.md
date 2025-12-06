@@ -20,6 +20,8 @@ Ziel ist es, ein verständliches Nachschlagewerk für Studium, Projekte und Beru
 | 🧩 OSI-Modell                        | [OSI-Referenzmodell-Grundlagen.md](notes/OSI-Referenzmodell-Grundlagen.md)                     |
 | 🌐 TCP/IP-Modell                     | [TCP-IP-Modell-Grundlagen.md](notes/TCP-IP-Modell-Grundlagen.md)                               |
 | 🔄 FTP, FTPS und SFTP                | [FTP-FTPS-SFTP-Grundlagen-und-Vergleich.md](notes/FTP-FTPS-SFTP-Grundlagen-und-Vergleich.md)   |
+| 📬 SMTP – Grundlagen & Funktionsweise | [SMTP-Grundlagen-und-Funktionsweise.md](notes/SMTP-Grundlagen-und-Funktionsweise.md)          |
+
 
 ---
 
